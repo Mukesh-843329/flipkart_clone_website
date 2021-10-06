@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@900&display=swap');
+
+:root{
+    --main-bg-color: #2874f0;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+nav{
+    display: flex;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 135px;
+    padding: 0 35px;
+}
+
+nav ul{
+    height: 60px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 23px;
+    
+}
+
+nav ul li a{
+    color: white;
+    text-decoration:none;
+}
+
+nav ul li a:hover{
+    color: black;
+    font-weight: bolder;
+}
+
+.search{
+    display: flex;
+    align-items: center;    
+}
+
+.search input{
+    width: 40vw;
+    height: 34px;
+    border-radius: 6px;
+    margin: 0 10px;
+    padding: 0 6px;
+}
+
+/* .upper{
+    background-color: violet;
+    width: 100vw;
+    height: 20vh;
+} */
+
+.middle{
+    display: flex;
+    justify-content: center;
+    width: 80vw;
+    margin: 5px auto;
+    overflow: hidden;
+}
+
+.container{
+    min-height: calc(100vh - 60px - 12vh);    
+}
+
+.card{
+    max-width: 91vw;
+    margin: 25px auto;
+}
+
+.card h2{
+    font-family: 'Noto Sans TC', sans-serif;
+    margin: 5px 0px;
+}
+
+.carditem{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+footer{
+    height: 12vh;
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: 'Noto Sans TC', sans-serif;
+}
